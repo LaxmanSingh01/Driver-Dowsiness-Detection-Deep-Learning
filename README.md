@@ -9,10 +9,15 @@ This can be used by riders who tend to drive for a longer period of time that ma
 
 ## Dependencies
 1 import cv2
+
 2 import streamlit as st
+
 3 import tensorflow as tf
+
 4 from tensorflow.keras.models import load_model
+
 5 import numpy as np
+
 6 from pygame import mixer
 
 ## Description
@@ -28,9 +33,8 @@ It checks 20 consecutive frames and if the Eye Aspect ratio is less than 0.25, A
 
 Summing up:
 
-![image](https://user-images.githubusercontent.com/84785447/145530534-266b30a8-3c04-48aa-94ab-126fdeff1612.png)  ![image](https://user-images.githubusercontent.com/84785447/145530646-1586d3d1-f136-4ef5-9e17-cb44dc05712a.png)
+![image](https://user-images.githubusercontent.com/84785447/145530534-266b30a8-3c04-48aa-94ab-126fdeff1612.png) 
 
-![image](https://user-images.githubusercontent.com/84785447/145530711-12607142-80f6-4ac0-bfa6-db79efc379b2.png)
 
 ## Execution 
 
